@@ -1,0 +1,46 @@
+body {
+  height: 100%;
+  background-image: url(weather2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image {
+  position: absolute;
+  margin-left: 200px;
+  width: 174px;
+  height: 261px;
+  background-image: url(finger.jpg);
+  border-radius: 50%;
+}
+
+.image2 {
+  position: absolute;
+  top: 160px;
+  right: 200px;
+  width: 200px;
+  height: 250px;
+  background-image: url(smurf.jpg);
+  border-radius: 10px;
+}
+
+#city-input,
+#weather-output {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.banner {
+  color: rgba(255, 255, 203, 0.582);
+  font-family: sans-serif;
+}
+
+.card-header {
+  background-color: antiquewhite;
+}
+
+.card-body {
+  background-color: honeydew;
+}
